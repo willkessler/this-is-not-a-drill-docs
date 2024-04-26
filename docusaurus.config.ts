@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://this-is-not-a-drill.com',
+  url: 'https://docs.this-is-not-a-drill.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -33,6 +33,8 @@ const config: Config = {
     [
       'classic',
       {
+        routeBasePath: '/',
+        homePageId: 'intro',
         docs: {
           sidebarPath: './sidebars.ts',
         },
