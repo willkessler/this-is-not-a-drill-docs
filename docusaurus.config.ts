@@ -50,7 +50,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/ThisIsNotADrill_cutout.png',
     navbar: {
-      title: 'This Is Not A Drill! Documentation',
+      title: 'This Is Not A Drill! Docs',
       logo: {
         alt: 'TINAD logo',
         src: 'img/ThisIsNotADrill_cutout.png',
@@ -60,9 +60,20 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Guide',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'API Reference',
+          href: '/ApiDocs',
+        },
+        {
+          href: 'https://app.this-is-not-a-drill.com',
+          label: 'Main App',
+          position: 'right',
+        },
         {
           href: 'https://github.com/willkessler/this-is-not-a-drill',
           label: 'GitHub',
@@ -72,47 +83,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/guide',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/willkessler/this-is-not-a-drill',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} This Is Not A Drill!. Built with Docusaurus.`,
     },
     prism: {
