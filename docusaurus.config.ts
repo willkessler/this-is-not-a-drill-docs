@@ -33,8 +33,6 @@ const config: Config = {
     [
       'classic',
       {
-        routeBasePath: '/',
-        homePageId: 'intro',
         docs: {
           sidebarPath: './sidebars.ts',
         },
