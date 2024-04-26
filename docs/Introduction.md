@@ -1,19 +1,25 @@
 ---
-title: Introduction/Installation
-sidebar_label: Introduction/Installation
-sidebar_position: 1
+title: Installation
+sidebar_label: Installing the SDK
+sidebar_position: 2
 ---
-### Getting started
+#### Installation methods
 
-It's easy to integrate **This Is Not A Drill!** (TINAD) in your React application, or in any other application. You can use the React SDK, or simply the REST API.
+It's easy to integrate **This Is Not A Drill!** (TINAD) in your React
+application, or in any other application. You can use the React SDK,
+or use the REST API and roll your own
+**[Backend-for-Frontend (BFF)](https://medium.com/mobilepeople/backend-for-frontend-pattern-why-you-need-to-know-it-46f94ce420b0)**
+that connects to our API.
 
 #### Before you integrate: _Sign up!_
 
-You'll need to sign up for an account (if you haven't already) from the **[Home Page](https://this-is-not-a-drill)**.
+You'll need to sign up for an account (if you haven't already), just click Signup from our **[Home Page](https://this-is-not-a-drill)**.
 
 Next, from the dashboard, create a development API key for use with
 the SDK. (Eventually you'll also want to generate a production API
 key.)
+
+<a href="https://app.this-is-not-a-drill.com/settings/app-config"><img src="/img/apiKeyCreation.png" width="900"/></a>
 
 ### Installing in your React App
 
