@@ -13,7 +13,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'guide',
+    'Introduction',
+    'Advanced',
     {
       type: 'link',
       label: 'API Reference',

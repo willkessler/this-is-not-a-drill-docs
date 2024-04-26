@@ -5,44 +5,52 @@ import styles from './styles.module.css';
 type FeatureItem = {
   title: string;
   href: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  webp: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Integration Guide',
-    href: '/docs/guide',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Basic Integration: Guide',
+    href: '/docs/Introduction',
+    webp: '/img/integration.webp',
     description: (
       <>
-        Everything you need to know to get going with TINAD in five minutes or less.
+        Get going with TINAD in 5 minutes
       </>
     ),
   },
   {
-    title: 'Reference Documentation',
-    href: '/ApiDocs',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Advanced Configuration',
+    href: '/docs/advanced',
+    webp: '/img/wrenches.webp',
     description: (
       <>
-        All the REST endpoints, and how to use them.
+        Many ways to configure your notifications
+      </>
+    ),
+  },
+  {
+    title: 'API Reference',
+    href: '/ApiDocs',
+    webp: '/img/api.webp',
+    description: (
+      <>
+        All about the REST API. 
       </>
     ),
   },
 ];
 
-function Feature({title, href, Svg, description}: FeatureItem) {
+function Feature({title, href, webp, description}: FeatureItem) {
   return (
-    <a href={href}>
-      <div className={clsx('col col--12')}>
-        <div className="text--center">
-          <Svg className={styles.featureSvg} role="img" />
-        </div>
-        <div className="text--center padding-horiz--md">
-          <Heading as="h3">{title}</Heading>
-          <p>{description}</p>
-        </div>
+    <a href={href} className="col col--4" style={{paddingTop:'40px'}}>
+      <div className="text--center">
+        <img src={webp} width="150" height="150" />
+      </div>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
       </div>
     </a>
   );

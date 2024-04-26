@@ -57,19 +57,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Guide',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'API Reference',
-          href: '/ApiDocs',
-        },
-        {
           href: 'https://app.this-is-not-a-drill.com',
           label: 'Main App',
           position: 'right',

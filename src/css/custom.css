@@ -36,3 +36,7 @@
 .container .row a {
   text-decoration: none;
 }
+
+.container .row h1 {
+  --ifm-h1-font-size:2rem;
+}
