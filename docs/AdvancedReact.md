@@ -1,7 +1,7 @@
 ---
-title: Advanced Configuration
-sidebar_label: Advanced Configuration
-sidebar_position: 1
+title: Advanced React Configuration
+sidebar_label: Advanced React Configuration
+sidebar_position: 4
 ---
 
 You can pass the following parameters when instantiating a `TinadComponent` in your pages.

@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'This Is Not A Drill! Docs',
+  title: 'This Is Not A Drill! (TINAD) Docs',
   tagline: 'The easiest alerting system on the planet!',
   favicon: 'img/favicon.ico',
 
@@ -50,7 +50,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/ThisIsNotADrill_cutout.png',
     navbar: {
-      title: 'This Is Not A Drill! Docs',
+      title: 'This Is Not A Drill! (TINAD) Docs',
       logo: {
         alt: 'TINAD logo',
         src: 'img/ThisIsNotADrill_cutout.png',

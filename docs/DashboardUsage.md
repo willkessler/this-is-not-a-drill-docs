@@ -1,22 +1,23 @@
 ---
-title: Dashboard Usage
-sidebar_label: Dashboard Usage
-sidebar_position: 1
+title: Using the Dashboard
+sidebar_label: Using the Dashboard
+sidebar_position: 3
 ---
 
-### Notifications Management
+### Managing Your Notifications
 
-#### Creating notifications
+#### Creating Notifications
 
-Just click Create a new notification to start a new notification. 
+Just click __Create a new notification__ to start a new notification. 
 
-##### Basic usage:
+<img src="/img/newNotif.png" />
+
+##### Basic usage notes:
 
 * You must enter some content to display in the notification, but all other fields are set to sensible defaults or optional.
 * You can set a start date and time, an end date and time, or both. If you set just the start time, the notification will be shown to users after that time. If you set just the end time, the notification will be shown to users only until that end time.
 * If you are in another timezone than PDT, you can set it here. The application will remember your timezone for future notifications.
 
-<img src="/img/newNotif.png" />
 
 ##### Advanced options:
 

@@ -1,7 +1,7 @@
 ---
-title: Installation
-sidebar_label: Installing the SDK
-sidebar_position: 2
+title: Installation in a React Application
+sidebar_label: React Installation
+sidebar_position: 3
 ---
 #### Installation methods
 
