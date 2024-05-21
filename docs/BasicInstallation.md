@@ -46,17 +46,9 @@ to copy the snippet to your computer's clipboard.
 <img src="/img/capturingSnippet.png" />
 
 For instance, suppose you decide to get started with very simple
-inline toasts. Your snippet may look like this:
+inline toasts. Your snippet will look something like this:
 
 ```
-//
-// AUTO-GENERATED SCRIPT TAG
-// The configuration controls at left
-// update the script tag below.
-// To go live, simply embed a snippet like this
-// (along your API key) on your site/app.
-//
-
 <script
   id="tinad-sdk"
   src="https://unpkg.com/@this-is-not-a-drill/vanillajs-sdk@latest/dist/bundle.js"
@@ -66,9 +58,11 @@ inline toasts. Your snippet may look like this:
   "api": {
     "displayMode": "inline",
     "endpoint": "https://demo-api.this-is-not-a-drill.com",
-    "key": "Fy05RL7F",
+    "key": "<YOUR_API_KEY>",
     "environments": [
-      "Development"
+      "Development",
+      "Staging", 
+      "Production"
     ],
     "domains": []
   },
@@ -88,42 +82,8 @@ inline toasts. Your snippet may look like this:
 To install TINAD using this snippet:
 
 1. Copy the snippet with the copy button as described above.
-1. Remove the comments at the top (`AUTO GENERATED SCRIPT TAG` etc)
-2. Replace the demo key `Fy05RL7F` with your development key
-3. Replace the `endpoint` with the production endpoint (`https://api.this-is-not-a-drill.com`).
-5. Paste the snippet into your website's pages HEAD and publish.
-
-For instance, if your development key was `ABC123`, you should end up with a snippet like this:
-
-```
-<script
-  id="tinad-sdk"
-  src="https://unpkg.com/@this-is-not-a-drill/vanillajs-sdk@latest/dist/bundle.js"
-  defer
-  tinad-configuration=
-'{
-  "api": {
-    "displayMode": "inline",
-    "endpoint": "https://api.this-is-not-a-drill.com",
-    "key": "ABC123",
-    "environments": [
-      "Development"
-    ],
-    "domains": []
-  },
-  "inline": {
-    "target": {
-      "useDefaults": true
-    },
-    "show": {
-      "confirm": true,
-      "dismiss": true
-    }
-  }
-}'
->
-```
-
+2. Paste your development key to replace `<YOUR_API_KEY>`;
+5. Paste the snippet into your website's pages HEAD, and publish your changes.
 
 :::tip
 Script snippets can safely be positioned in the <code>HEAD</code>
@@ -131,9 +91,27 @@ section of your pages, because the `defer` keyword on the snippet will
 prevent the snippet from slowing down your site in any way.
 :::
 
-### What do I do next?
+### What should I do next?
 
 You're all set to send notifications to your users! The next thing
 you'll want to do is set up some notifications to be sent.
 
-See the next section for details on how to do this.
+See the next section, __Using the Dashboard__, for details on how to do this.
+
+:::tip
+
+By default, the snippet is set to receive notifications on multiple
+environments.  If you only have a single (production) website, you can
+change the line in the `environments` section of the snippet to only
+include your production environment.
+
+```
+    "environments": [
+      "Production",
+    ],
+```
+
+_When you create notifications in the dashboard, you can
+identify each notification to target specific environments and not others.
+This makes it possible to test TINAD out in development environments._
+:::
