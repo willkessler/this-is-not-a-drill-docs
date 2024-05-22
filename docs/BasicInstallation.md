@@ -35,13 +35,9 @@ Some typical use cases are:
 
 For a real-world, visual example, here's a notification recently seen on a popular
 video recording service, Loom. This type of notification could have easily be
-inserted using __This Is Not A Drill!__ instead of writing special application code.
+inserted using __This Is Not A Drill!__ (instead of deploying application-specific code).
 
-<img src="/img/loom_example.png"/>
-
-:::tip
-Throughout this documentation, we may refer to This Is Not A Drill! by a shorter acronym, __TINAD__. 
-:::
+<div style={{textAlign:'center', margin:'70px 0 70px 0' }}><img src="/img/loom_example.png"/></div>
 
 ### We care about your users
 
@@ -53,15 +49,19 @@ Privacy is core to the TINAD's design. We don't collect any PII
 instead on an anonymous ID that you provide us (or we generate) to
 prevent repeat notifications.
 
+:::tip
+Throughout this documentation, we may refer to This Is Not A Drill! by a shorter acronym, __TINAD__. 
+:::
 
-## Before you install: _Sign up!_
+
+## Before you install: sign up
 
 You'll need to sign up for an account with TINAD (if you haven't already). 
-Just click Signup from our **[Home Page](https://this-is-not-a-drill)**.
+Just click __Signup__ from our **[Home Page](https://this-is-not-a-drill)**.
 
 Signing up will put you immediately into the dashboard. 
 
-### Integration with the Javascript snippet
+## Integrating with the Javascript snippet
 
 We've provided a utility/demo you can use to point and click your way
 to an integration Javascript snippet. Just head on over to our <b><a
@@ -150,9 +150,6 @@ prevent the snippet from slowing down your site in any way.
 :::
 
 ### Granting service access to the snippet
-
-Before the snippet can begin serving notifications on your site, you
-must grant access to your site's URL(s).
 
 For security, __This Is Not A Drill!__ checks where requests with your
 public API key originate, against a list of URLs you provide. Before
