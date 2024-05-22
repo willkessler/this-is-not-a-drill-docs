@@ -6,13 +6,13 @@ sidebar_position: 4
 
 You can pass the following parameters when instantiating a `TinadComponent` in your pages.
 
-| Parameter  | Type         | Purpose |
-|------------|--------------|----------|
-| mode       | string       | One of : `toast` or `modal` or `inline`|
-| template   | JSX fragment | Format you want to use for inline notifications.|
-| pageId     | string       | Name the page where you have invoked the component. Only notifications either set to that specific page, or with the page not set, will show up on this page|
-| toastProps | object       | Configuration parameters for toasts only |
-| dismiss | Function | You can pass a custom callback for when end users dismiss a modal. |
+| Parameter  | Type         | Purpose                                                                                                                                                      |
+|------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| mode       | string       | One of : `toast` or `modal` or `inline`                                                                                                                      |
+| template   | JSX fragment | Format you want to use for inline notifications.                                                                                                             |
+| pageId     | string       | Name the page where you have invoked the component. Only notifications either set to that specific page, or with the page not set, will show up on this page |
+| toastProps | object       | Configuration parameters for toasts only                                                                                                                     |
+| dismiss    | Function     | You can pass a custom callback for when end users dismiss a modal.                                                                                           |
 
 :::tip About toast properties TINAD uses
 [`react-toastify`](https://www.npmjs.com/package/react-toastify) to
