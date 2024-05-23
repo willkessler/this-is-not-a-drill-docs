@@ -12,7 +12,7 @@ _"Oh no, we forgot we have to tell users we're going down for backups, this Sund
 
 Studies have shown that of all the various modern communication
 channels, announcements that appear __inside applications__ when you
-have the user's __full focus__ are far and away the most effective.
+have the __user's full attention__ are far and away the most effective.
 
 With __This Is Not A Drill!__, you're covered. Once you install, it
 becomes easy to send impromptu or scheduled announcements to your
