@@ -1,6 +1,6 @@
 ---
-title: Advanced React Configuration
-sidebar_label: Advanced React Configuration
+title: Advanced React Application Configuration
+sidebar_label: Advanced React App Config
 sidebar_position: 4
 ---
 

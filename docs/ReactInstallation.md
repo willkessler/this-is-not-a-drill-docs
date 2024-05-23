@@ -1,6 +1,6 @@
 ---
 title: Installation in a React Application
-sidebar_label: React Installation
+sidebar_label: Installing in a React Application
 sidebar_position: 3
 ---
 #### Installation methods

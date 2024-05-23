@@ -15,7 +15,10 @@ Just click __Create a new notification__ to start a new notification.
 ##### Basic usage notes:
 
 * You must enter some content to display in the notification, but all other fields are set to sensible defaults or optional.
-* You can set a start date and time, an end date and time, or both. If you set just the start time, the notification will be shown to users after that time. If you set just the end time, the notification will be shown to users only until that end time.
+* HTML and Markdown are both supported in your notification content. For instance, you might want to include some icons or pictures in your notification. No problem!
+* You can set a start date and time, an end date and time, or both. 
+  * If you set just the start time, the notification will be shown to users _only after_ that start time. 
+  * If you set just the end time, the notification will be shown to users _only up until_ that end time.
 * If you are in another timezone than PDT, you can set it here. The application will remember your timezone for future notifications.
 
 
