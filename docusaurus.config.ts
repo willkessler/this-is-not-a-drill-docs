@@ -52,8 +52,7 @@ const config: Config = {
       appId: 'CLP7YG1NQE',
 
       // Public API key: it is safe to commit it
-      //apiKey: '8d930ed1b831ec1261f27d980a27c271',
-      apiKey: '6a796a6280c25729bd60e33f7d9179dc',
+      apiKey: '8d930ed1b831ec1261f27d980a27c271',
 
       indexName: 'this-is-not-a-drill',
 
